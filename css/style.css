@@ -1,10 +1,12 @@
 
+
+/*HOJA*/
 .hoja{
     max-width: 420mm;
     min-width: 420mm;
     max-height: 297mm;
     min-height: 297mm;
-    background-color: rgb(226, 226, 226); 
+    background-color: rgb(255, 255, 255); 
     padding: 10px;   
 }
 
