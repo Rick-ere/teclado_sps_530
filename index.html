@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TECLADO SPS 530</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/reset.css">
-</head>
-<body>
-    <div id="root" class="hoja">
-        <div id="container" class="container">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/modal.css" />
+  </head>
+  <body>
 
+    <div>
+      <!-- Trigger/Open The Modal -->
+      <button id="myBtn" style="display: none;">Abrir Modal</button>
+
+      <!-- MODAL -->
+      <div id="myModal" class="modal">
+        <!-- CONTENIDO DEL MODAL -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>HELLO WORLD!!!</p>
+          <form action="" id="form">
+            <input id="contenido" type="text" placeholder="Contenido...">
+            <hr>
+            <button id="btn_cerrar">CERRAR</button>
+          </form>
         </div>
+      </div>
     </div>
-</body>
-<script src="./js/config.js"></script>
-<script src="./js/index.js"></script>
+
+    <div id="root" class="hoja">
+      <div id="container" class="container"></div>
+    </div>
+  </body>
+  <script src="./js/modal.js"></script>
+  <script src="./js/config.js"></script>
+  <script src="./js/index.js"></script>
 </html>
