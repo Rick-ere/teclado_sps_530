@@ -3,9 +3,9 @@
 /*HOJA*/
 .hoja{
     max-width: 420mm;
-    min-width: 420mm;
+    min-width: 350mm;
     max-height: 297mm;
-    min-height: 297mm;
+    min-height: 270mm;
     background-color: rgb(255, 255, 255); 
     padding: 10px;   
 }
@@ -13,10 +13,11 @@
 .container{
     width: auto;
     height: inherit;
+    margin: auto;
     /* margin: 10px; */
     /* border: 1px solid #000; */
-    /* justify-content: center;
-    align-items: center; */
+     justify-content: center;
+    align-items: center; 
 }
 
 .fila{
